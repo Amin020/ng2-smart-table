@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css";
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+table {
+  width: auto !important;
+  border: solid 1px rgb(235, 235, 235) !important;
+  font-size: 13px !important;
+  margin: 1px !important;
+  background-color: var(--white) !important;
+}
+
+thead .ng2-smart-titles {
+  text-align: center !important;
+  color: rgb(113, 113, 113) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  border-bottom: solid 3px rgb(222, 235, 255) !important;
+}
+
+tbody tr td {
+  background-color: var(--white) !important;
+  color: rgb(22, 42, 78) !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  text-align: center !important;
+  width: auto !important;
+}
+
+thead tr th, tbody tr td {
+  border-right: solid 1px rgb(235, 235, 235) !important;
+  border-left: solid 1px rgb(235, 235, 235) !important;
+  text-align: center !important;
+}

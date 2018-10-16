@@ -1,0 +1,11 @@
+ng2-smart-table {
+    width: auto;
+    border: 1px solid grey;
+    font-size: 15px;
+    margin: 2px;
+}
+
+/* ng2-smart-table table thead {
+    border: 1px solid black !important;
+    color: red !important;
+} */

@@ -1,0 +1,7 @@
+<ng2-smart-table
+    [settings]="settings" 
+    [source]="data"
+    (userRowSelect)="selectedRow($event)"
+    (create)="createNewRow($event)"
+    (editConfirm)="confirmEdit($event)">
+</ng2-smart-table>

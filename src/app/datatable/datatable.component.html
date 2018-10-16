@@ -1,0 +1,28 @@
+<table class="table table-striped" [mfData]="dataset" #mf="mfDataTable" [mfRowsOnPage]="1000">
+  <thead>
+  <tr>
+      <th *ngFor="let columnHeader of columnHeaders">
+          <mfDefaultSorter by="name">{{columnHeader}}</mfDefaultSorter>
+      </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let row of mf.data">
+      <td *ngFor="let item of row">{{item}}</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+      <td colspan="4">
+          <mfBootstrapPaginator [rowsOnPageSet]="[1,2,3,4,5]"></mfBootstrapPaginator>
+      </td>
+  </tr>
+  </tfoot>
+</table>
+
+
+
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

@@ -1,0 +1,35 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border: solid 1px rgb(235, 235, 235);
+  font-size: 13px;
+  margin: 1px;
+  background-color: var(--white);
+}
+
+thead tr {
+  text-align: center;
+  color: rgb(113, 113, 113);
+  font-weight: 600;
+  font-size: 12px;
+  border-bottom: solid 3px rgb(222, 235, 255);
+}
+
+tbody tr td {
+  background-color: var(--white);
+  color: rgb(22, 42, 78);
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  width: auto;
+}
+
+thead tr th, tbody tr td {
+  border-right: solid 1px rgb(235, 235, 235);
+  border-left: solid 1px rgb(235, 235, 235);
+  text-align: center;
+}
